@@ -31,8 +31,6 @@ def frequency_analysis(inputted_string):
     for k in sorted(letter_count, key=letter_count.get, reverse=True):
         print(k, '=', letter_count[k])
 
-    print("", end="\n")
-
     print('The amount of characters in the inputted string is {0}'.format(count))
 
     # uncomment to use a file
